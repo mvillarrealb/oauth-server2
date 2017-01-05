@@ -1,0 +1,36 @@
+{
+  "name": "oauth-server2",
+  "version": "1.0.0",
+  "description": "Simple and fast express Oauth2 server, based on sequelize and supported with memcache",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -b test/tests.js"
+  },
+  "keywords": [
+    "Oauth2-server",
+    "oauth2",
+    "expressjs",
+    "sequelize"
+  ],
+  "author": "Marco Villarreal <erick.slayer.m.v@gmail.com> (https://github.com/mvillarrealb)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chalk": "^1.1.3",
+    "mocha": "^3.2.0",
+    "node-uuid": "^1.4.7",
+    "sleep": "^5.0.0",
+    "superagent": "^3.3.1"
+  },
+  "dependencies": {
+    "ajv": "^4.10.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "i18n": "^0.8.3",
+    "memcached": "^2.2.2",
+    "mod-loader": "0.0.1",
+    "moment": "^2.17.1",
+    "sequelize": "^3.28.0",
+    "sequelize-resource": "^1.0.3"
+  }
+}

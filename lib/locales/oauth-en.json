@@ -1,0 +1,28 @@
+{
+  "client_notexists":"El cliente {clientId} no existe o el secret es invalido",
+
+  "required_formurl":"El encabezado Content-Type de la peticion debe ser application/x-www-form-urlencoded",
+  "missing_client":"No se ha encontrado el parametro client_id",
+  "missing_secret":"No se ha encontrado el parametro client_secret",
+  "missing_grant":"No se ha encontrado el parametro grant_type",
+  "required_refresh_token":"No se ha encontrado el parametro refresh_token",
+
+  "malformed_auth":"Encabezado de autorizacion malformado",
+  "missing_token":"No ha especificado un access token",
+
+  "missing_scope":"El access token no tiene scopes asignados, o estan malformados",
+  "scope_denied":"El access token no tiene permiso para el scope {{scope}}",
+  "invalid_token":"El access token especificado es invalido",
+  "expired_token":"El access token especificado ha expirado",
+  "invalidated_token":"El access token especificado ha sido invalidado",
+
+  "invalid_refresh_token": "El refresh token especificado es invalido",
+  "expired_refreshtoken":"El refresh token especificado ha expirado",
+  "used_refreshtoken":"El refresh token especificado ya fue utilizado",
+
+  "validation_failed": "La validación ha fallado",
+  "invalid_grant": "El cliente no posee grants validos",
+  "unsupported_grant":"El grant_type {{grant}} no es soportado",
+  "unsupported_client_grant":"El grant_type {{grant}} no esta permitido para el cliente {{client}}"
+
+}
