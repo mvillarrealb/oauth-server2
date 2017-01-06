@@ -1,28 +1,30 @@
 {
-  "client_notexists":"El cliente {clientId} no existe o el secret es invalido",
+  "client_notexists":"The client with the id {clientId} does not exists or the secret is invalid",
 
-  "required_formurl":"El encabezado Content-Type de la peticion debe ser application/x-www-form-urlencoded",
-  "missing_client":"No se ha encontrado el parametro client_id",
-  "missing_secret":"No se ha encontrado el parametro client_secret",
-  "missing_grant":"No se ha encontrado el parametro grant_type",
-  "required_refresh_token":"No se ha encontrado el parametro refresh_token",
+  "required_formurl":"Content-Type header must be application/x-www-form-urlencoded",
 
-  "malformed_auth":"Encabezado de autorizacion malformado",
-  "missing_token":"No ha especificado un access token",
+  "missing_client":"Required parameter client_id was not found",
+  "missing_secret":"Required parameter client_secret was not found",
+  "missing_grant":"Required parameter grant_type was not found",
+  "required_refresh_token":"Required parameter refresh_token was not found",
 
-  "missing_scope":"El access token no tiene scopes asignados, o estan malformados",
-  "scope_denied":"El access token no tiene permiso para el scope {{scope}}",
-  "invalid_token":"El access token especificado es invalido",
-  "expired_token":"El access token especificado ha expirado",
-  "invalidated_token":"El access token especificado ha sido invalidado",
+  "malformed_auth":"Malformed authorization header",
+  "missing_token":"You haven't issued an access token",
 
-  "invalid_refresh_token": "El refresh token especificado es invalido",
-  "expired_refreshtoken":"El refresh token especificado ha expirado",
-  "used_refreshtoken":"El refresh token especificado ya fue utilizado",
+  "missing_scope":"The access token does not have scopes or the scopes are malformed",
+  "scope_denied":"Insufficient privilege for the scope {{scope}}",
 
-  "validation_failed": "La validación ha fallado",
-  "invalid_grant": "El cliente no posee grants validos",
-  "unsupported_grant":"El grant_type {{grant}} no es soportado",
-  "unsupported_client_grant":"El grant_type {{grant}} no esta permitido para el cliente {{client}}"
+  "invalid_token":"The issued access token is invalid",
+  "expired_token":"The issued access token has expired",
+  "invalidated_token":"The issued access token has been invalidated",
+
+  "invalid_refresh_token": "The issued refresh token is invalid",
+  "expired_refreshtoken":"The issued refresh token has expired",
+  "used_refreshtoken":"The issued refresh token has been already used",
+
+  "validation_failed": "Validation failed",
+  "invalid_grant": "The client has invalid grants",
+  "unsupported_grant":"grant_type {{grant}} is not supported",
+  "unsupported_client_grant":"grant_type {{grant}} is not allowed for client {{client}}"
 
 }
